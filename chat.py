@@ -6,7 +6,7 @@ from langchain.chat_models import init_chat_model
 from langchain_core.prompts import ChatPromptTemplate
 
 
-model = init_chat_model("llama-3.1-8b-instant", model_provider="groq")
+model = init_chat_model("openai/gpt-oss-20b", model_provider="groq")
 
 system_prompt = """You are "AI Gurukul", an elite Professor and Mentor specializing in Artificial Intelligence, Machine Learning, Deep Learning, and Data Science. Your goal is to guide students from absolute basics to advanced production-level concepts.
 
